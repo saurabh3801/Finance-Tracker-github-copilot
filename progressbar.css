@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    ;
+}
+.container5{
+    height:auto;
+    width: auto;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top: 50%;
+    left:50%;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+
+
+}
+.circular-progress{
+    position:relative;
+    height:170px;
+    width:170px;
+    background-color: rgb(255, 255, 255);;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+
+}
+.circular-progress:before{
+    content: "";
+    position: absolute;
+    height: 84%;
+    width:84%;
+    background-color:#190451;
+    border-radius: 50%;
+}
+.value-container{
+    position: relative;
+    font-size: "Poppins", sans-serif;
+    font-size:50px;
+    color: rgb(255, 255, 255);
+}
